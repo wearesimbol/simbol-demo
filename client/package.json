@@ -1,0 +1,39 @@
+{
+  "name": "simbol-demo",
+  "version": "1.0.0",
+  "description": "Boilerplare code to make your own Simbol app",
+  "main": "src/js/index.js",
+  "scripts": {
+    "js": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wearesimbol/simbol-demo.git"
+  },
+  "keywords": [
+    "simbol",
+    "webxr",
+    "social",
+    "3d",
+    "vr",
+    "ar",
+    "virtual",
+    "world"
+  ],
+  "author": "Alberto Elias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wearesimbol/simbol-demo/issues"
+  },
+  "homepage": "https://github.com/wearesimbol/simbol-demo#readme",
+  "devDependencies": {
+    "rollup": "^0.64.0",
+    "rollup-plugin-commonjs": "^9.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "dependencies": {
+    "simbol": "^1.0.0-alpha.9"
+  }
+}

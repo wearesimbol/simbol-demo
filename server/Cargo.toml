@@ -1,0 +1,7 @@
+[package]
+name = "simbol-demo"
+version = "1.0.0"
+authors = ["Author Name <name@example.com>"]
+
+[dependencies]
+simbol-server = "1.1.0"
